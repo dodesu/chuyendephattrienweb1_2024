@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#type-3007 .header {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+#type-3007 .header .row .left-content .h1-left {
+  font-size: 4.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#type-3007 .header .row .left-content .p-left {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+#type-3007 .header .row .right-form {
+  padding-left: 200px;
+}
+#type-3007 .header .row .right-form .p-4 {
+  padding: 1.5rem;
+}
+#type-3007 .header .row .right-form .rounded {
+  border-radius: 10px;
+}
+#type-3007 .header .row .right-form .shadow {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+#type-3007 .header .row .right-form .submit {
+  margin-left: 35px;
+}
+#type-3007 .header .row .right-form .bg-white {
+  background-color: white;
+}
+#type-3007 .header .row .right-form .bg-white .title-form {
+  color: gray;
+  font-weight: bold;
+  text-align: left;
+}
+#type-3007 .header .row .right-form .bg-white label {
+  font-weight: bold;
+  color: gray;
+}
+#type-3007 .header .row .right-form .bg-white .form-control,
+#type-3007 .header .row .right-form .bg-white .form-select {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+#type-3007 .header .btn-success {
+  background-color: #6dd300;
+  border-color: #6dd300;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#type-3007 .features {
+  height: 15vh;
+  background-color: #242559;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#type-3007 .features .foot-ele {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#type-3007 .features .foot-ele .icon {
+  color: #6dd300;
+  margin-right: 8px;
+}
+#type-3007 .features .foot-ele .tag {
+  margin-top: 5px;
+}
+#type-3007 .btn {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}

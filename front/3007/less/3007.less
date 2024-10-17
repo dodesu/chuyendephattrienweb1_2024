@@ -1,0 +1,120 @@
+@success-color: #6dd300;
+@dark-bg: #242559;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#type-3007 { 
+    .btn {
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        
+    }
+    .header {
+        background-image: url(../images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+
+        .row {
+
+            .left-content {
+                .h1-left {
+                    font-size: 4.2rem;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                }
+
+                .p-left {
+                    font-size: 1.5rem;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .right-form {
+                padding-left: 200px;
+
+                .p-4 {
+                    padding: 1.5rem;
+                }
+
+                .rounded {
+                    border-radius: 10px;
+                }
+
+                .shadow {
+                    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                }
+
+                .submit {
+                    margin-left: 35px;
+                }
+
+                .bg-white {
+                    background-color: white;
+
+                    .title-form {
+                        color: gray;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+
+                    label {
+                        font-weight: bold;
+                        color: gray;
+                    }
+
+                    .form-control,
+                    .form-select {
+                        border-radius: 5px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+
+        }
+
+        .btn-success {
+            background-color: @success-color;
+            border-color: @success-color;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            border-radius: 5px;
+        }
+    }
+
+    .features {
+        height: 15vh;
+        background-color: @dark-bg;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        .foot-ele {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+
+            .icon {
+                color: @success-color;
+                margin-right: 8px;
+            }
+
+            .tag {
+                margin-top: 5px;
+
+            }
+        }
+
+    }
+
+}

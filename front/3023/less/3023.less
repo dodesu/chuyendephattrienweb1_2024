@@ -1,0 +1,51 @@
+@icon-width: 20%;
+@icon-color: white;
+@panel-height: 150px;
+#type-3023 {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    .title {
+        margin: 30px 0;
+        color: white;
+        font-weight: bold;
+    }
+
+    .panel-body {
+        display: flex;
+        align-items: center;
+        /* Căn giữa theo chiều dọc */
+        background-color: aqua;
+        height: @panel-height;
+        padding-right: 0;
+
+        .icon-container {
+            flex: 0 0 @icon-width;
+            /* Chiếm 1/4 chiều rộng */
+            text-align: center;
+            /* Căn giữa biểu tượng */
+            color: @icon-color;
+        }
+
+        .content-container {
+            flex: 1;
+            /* Chiếm phần còn lại */
+            text-align: left;
+            /* Căn trái nội dung */
+            background-color: aliceblue;
+            padding: 24px 15px 15px 15px;
+            height: @panel-height;
+            .h-content {
+                font-weight: bold;
+            }
+
+            .p-content {
+                color: gray;
+            }
+        }
+    }
+
+}
